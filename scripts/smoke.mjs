@@ -25,7 +25,7 @@ const ENGINE = (process.argv.find((a) => a.startsWith('--engine=')) ?? '').slice
 const ENGINES = { chromium, webkit, firefox };
 
 const PORT = 4319;
-const BASE = '/einstein-tile';
+const BASE = '/einstein';
 const ROOT = new URL('../dist/', import.meta.url).pathname;
 
 const MIME = {

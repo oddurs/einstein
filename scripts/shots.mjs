@@ -21,7 +21,7 @@ import { homedir } from 'node:os';
 import { createHash } from 'node:crypto';
 
 const PORT = 4390;
-const BASE = '/einstein-tile';
+const BASE = '/einstein';
 const ROOT = new URL('../dist/', import.meta.url).pathname;
 const arg = (name, fallback) => {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));

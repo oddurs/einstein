@@ -1,6 +1,6 @@
 # einstein-tile
 
-**[A shape that never repeats →](https://oddurs.github.io/einstein-tile/)**
+**[A shape that never repeats →](https://oddurs.github.io/einstein/)**
 
 An interactive explainer for the einstein tile: one ordinary-looking polygon
 that covers an endless floor without the pattern ever repeating. Six scenes,
@@ -15,7 +15,7 @@ that is deliberate: they are the ones where you use your hands.
 > this one and it never does — and there are only thirty-one slides that could
 > possibly have worked, so you can try them all.
 
-Also: **[make one](https://oddurs.github.io/einstein-tile/make/)**.
+Also: **[make one](https://oddurs.github.io/einstein/make/)**.
 
 ## What's here
 
@@ -73,7 +73,7 @@ because they were not obvious:
 
 ```bash
 npm install
-npm run dev        # the piece, at /einstein-tile/
+npm run dev        # the piece, at /einstein/
 npm run verify     # typecheck, 168 unit tests, browser smoke check
 npm run og         # regenerate the share card from the engine
 ```

@@ -24,7 +24,7 @@ import { extname, join, normalize } from 'node:path';
 import { homedir } from 'node:os';
 
 const PORT = 4392;
-const BASE = '/einstein-tile';
+const BASE = '/einstein';
 const ROOT = new URL('../dist/', import.meta.url).pathname;
 const STRICT = process.argv.includes('--strict');
 
